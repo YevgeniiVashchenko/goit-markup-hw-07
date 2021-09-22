@@ -464,9 +464,10 @@ ul {
 
 .footer-contacts__logo {
   display: block;
+  margin-bottom: 20px;
 }
 
-.footer-contacts__logo:not(:last-child) {
+.footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
