@@ -600,17 +600,17 @@ ul {
   padding-bottom: 94px;
 }
 
-.portfolio-filter-list {
+.portfolio-filter__list {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
 }
 
-.portfolio-filter-item:not(:last-child) {
+.portfolio-filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.portfolio-filter-button {
+.portfolio-filter__button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -625,7 +625,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-filter-button:hover, .portfolio-filter-button:focus {
+.portfolio-filter__button:hover, .portfolio-filter__button:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);

@@ -2,17 +2,17 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.portfolio-filter-list {
+.portfolio-filter__list {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
 }
-.portfolio-filter-item {
+.portfolio-filter__item {
   &:not(:last-child) {
     margin-right: 8px;
   }
 }
-.portfolio-filter-button {
+.portfolio-filter__button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
